@@ -9,7 +9,7 @@ import Card from "../components/Card.astro";
     <title>Hedonya Hospitality</title>
     <meta
       name="description"
-      content="Introduction to next-gen property management in Cairo and Alexandria, Egypt"
+      content="Introduction to the next-gen property management in Cairo and Alexandria, Egypt"
     />
     <meta name="robots" content="index, follow" />
   </head>
@@ -39,11 +39,11 @@ import Card from "../components/Card.astro";
   <section class="bg-[#1D1C1C] pt-24">
     <div class="w-11/12 md:w-3/4 mx-auto border-t-[1px] border-white">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 mt-5">
-        <div
+        <h1
           class="col-span-1 md:w-2/3 text-white font-heldane text-5xl pl-2 mb-5 md:mb-0"
         >
           What is Hedonya?
-        </div>
+        </h1>
         <div>
           <p class="col-span-1 text-white font-soehne">
             At Hedoyna, we blend cutting-edge technology with our passion for
@@ -71,11 +71,11 @@ import Card from "../components/Card.astro";
 
     <div class="w-11/12 md:w-3/4 mx-auto border-t-[1px] border-white mt-32">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 mt-5">
-        <div
+        <h1
           class="col-span-1 md:w-2/3 text-white font-heldane text-5xl pl-2 mb-5 md:mb-0"
         >
           What do we do?
-        </div>
+        </h1>
         <div class="text-white font-soehne col-span-1">
           <p class="text-white font-soehne">
             Become part of a community of successful short-term rental owners
@@ -126,11 +126,11 @@ import Card from "../components/Card.astro";
 
     <div class="w-11/12 md:w-3/4 mx-auto border-t-[1px] border-white mt-32">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 mt-5">
-        <div
+        <h1
           class="col-span-1 md:w-2/3 text-white font-heldane text-5xl pl-2 mb-5 md:mb-0"
         >
           Why should I choose Hedonya?
-        </div>
+        </h1>
         <div class="text-white font-soehne">
           <p class="col-span-1 text-white font-soehne">
             Become part of a community of successful short-term rental owners
@@ -240,6 +240,19 @@ import Card from "../components/Card.astro";
   <div class="h-[1px] mt-[23px] bg-[#1D1C1C]"></div>
 
   <div class="h-[10vh]"></div>
+
+  <style>
+    @font-face {
+      font-family: "mhcorpo";
+      src: url("/fonts/mhcorpo.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    h1 {
+      font-family: "mhcorpo", sans-serif;
+    }
+  </style>
 
 
 </html>
